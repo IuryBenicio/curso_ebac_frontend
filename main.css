@@ -1,0 +1,103 @@
+h1{
+    color: rgb(255, 255, 255);  
+  }
+
+#esportes h2 {
+    color: green
+}
+
+#esportes{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economia h2 {
+    color: darkblue;
+}
+
+#economia{
+    background-color: rgba(251, 255, 0, 0.712);
+}
+
+#entretenimento{
+    background-color: rgba(230, 81, 241, 0.613);
+}
+
+#tecnologia{
+    background-color: rgba(31, 234, 241, 0.621);
+}
+
+
+
+article time {
+    color: #000000;
+}
+
+body{
+    margin: 0 0;
+}
+
+body > header {
+    background-color: #2f2f2f ;
+    padding:  16px 0;
+}
+
+.tecnologia_texto{
+    text-transform: uppercase;
+}
+
+/*organização*/
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos img {
+    height: 180px;
+}
+
+.artigos article{
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+
+section h2, .artigos article{
+    margin-bottom: 16px;
+}
+
+.artigos a{
+    background-color: rgb(26, 75, 76);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    text-decoration: none;
+}
+
+.artigos a:hover{
+    text-decoration: underline;
+}
+/*posicionamento*/
