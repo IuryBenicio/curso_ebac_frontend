@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: rgb(51, 201, 56);
+    padding: 30px;
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin: 0 50px;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(0, 0, 0);
+}
+
+header nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+header nav{
+    margin: 0 50px;
+}
+header nav li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    justify-content: space-between
+}
+
+/*MAIN*/
+
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+main .container{
+    margin: 50px 50px 50px 50px;
+}
+
+main img{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+}
+
+main article p{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+main .membros{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    color: azure;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a:hover{
+    color: rgb(51, 201, 56);
+}
+
