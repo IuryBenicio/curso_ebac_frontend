@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.689);
+}
+
+.container{
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 0,5px solid rgba(0, 0, 0, 0.485);
+    box-shadow: 0,5px rgba(0, 0, 0, 0.326);
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    background-color: rgb(32, 154, 32);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+
+
+
