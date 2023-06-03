@@ -1,0 +1,46 @@
+@use 'variaveis/reset.scss';
+@use 'variaveis/cor-de-fundo.scss';
+@use 'sections-style/header.scss';
+@use 'sections-style/products.scss';
+@use 'responsividade/respon.scss';
+@use 'sections-style/menu.scss';
+
+body {
+    background-color: cor-de-fundo.$cor-de-fundo1;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 56px 0;
+}
+
+@media screen and (max-width: respon.$tela-tablet) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: respon.$tela-celular) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
+

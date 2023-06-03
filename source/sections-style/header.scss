@@ -1,0 +1,15 @@
+@use '../variaveis/cor-de-fundo.scss';
+
+header {
+    background-color: cor-de-fundo.$cor-de-fundo2;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
