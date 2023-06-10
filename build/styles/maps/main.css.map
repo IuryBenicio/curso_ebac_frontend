@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","variaveis.scss"],"names":[],"mappings":"AAEA,KACI,iBCHS","file":"../main.css","sourcesContent":["@use 'variaveis';\n\nbody{\n    background-color: variaveis.$corDeFundo;\n}","$corDeFundo: rgb(255, 0, 0);"]}
