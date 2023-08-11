@@ -13,6 +13,6 @@ const regina = new Aluno('Regina', 2);
 
 let alunos = [jose, elisa, luis, elisa, julio, regina];
 
-const alunosAprovados = alunos.filter(aluno => (aluno.notaAluno >= 6))
+const alunosAprovados = alunos.filter aluno => (aluno.notaAluno >= 6)
 
 console.log(alunosAprovados)
